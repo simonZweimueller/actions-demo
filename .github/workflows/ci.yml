@@ -32,5 +32,5 @@ jobs:
         run: |
           echo "Hallo ich bin hier"
           ls -l target/
-          scp target/actions-demo-1.0.0-SNAPSHOT-runner.jar ${{ secrets.ORAVM_IP }}@${{ secrets.ORAVM_USER }}:
+          scp target/actions-demo-1.0.0-SNAPSHOT-runner.jar ${{ secrets.ORAVM_USER }}@${{ secrets.ORAVM_IP }}:
 
